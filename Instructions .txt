@@ -1,0 +1,30 @@
+Step-by-Step Instructions: 
+Step 1: Prepare the Application Files
+1. Extract the ZIP file you downloaded. This will be your project directory.
+
+Step 2: Configure API Access
+Sign up at https://api.together.xyz/.
+Once logged in, click on your profile icon and select the 'Settings' option.
+From the sidebar, click on 'API KEYS' to view your API keys.
+Copy the required API Key.
+
+Step 4: Update Application Configuration
+1. Open the .env file in Visual Studio Code (or any Python editor).
+2. Update TOGETHER_API_KEY with the copied API Key.
+
+Step 5: Prepare Your Development Environment
+1. Open Command Prompt or Terminal.
+2. Navigate to your project folder (cd path_to_your_project).
+3. Create a new virtual environment using Conda:
+conda create -n sumenv python=3.9
+4. Activate the virtual environment:
+conda activate sumenv
+
+Step 6: Install Dependencies
+1. Install all the necessary libraries from the requirements.txt file:
+
+Step 7: Run the Application
+1. Insert your sample text in “input.txt” present in the project folder.
+2. Start the application by running:
+python app.py
+3. See the output in “output.txt” file.
